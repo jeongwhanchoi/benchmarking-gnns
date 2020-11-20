@@ -6,7 +6,8 @@
 from nets.SBMs_node_classification.gated_gcn_net import GatedGCNNet
 from nets.SBMs_node_classification.gcn_net import GCNNet
 from nets.SBMs_node_classification.gat_net import GATNet
-from nets.SBMs_node_classification.graphsage_net import GraphSageNet
+# from nets.SBMs_node_classification.graphsage_net import GraphSageNet
+from nets.SBMs_node_classification.graphsage_net_convex import GraphSageNet
 from nets.SBMs_node_classification.mlp_net import MLPNet
 from nets.SBMs_node_classification.gin_net import GINNet
 from nets.SBMs_node_classification.mo_net import MoNet as MoNet_
